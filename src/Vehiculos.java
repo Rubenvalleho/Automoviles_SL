@@ -5,6 +5,7 @@ public class Vehiculos {
     private String color;
     private String combustible;
     private String motor;
+    private String cv;
 
     public void setMatricula(String matricula) {
         this.matricula = matricula;
@@ -57,8 +58,6 @@ public class Vehiculos {
     public void setCv(String cv) {
         this.cv = cv;
     }
-
-    private String cv;
 
     public String getMatricula() {
         return matricula;

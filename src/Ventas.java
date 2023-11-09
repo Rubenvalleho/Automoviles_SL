@@ -1,6 +1,11 @@
+import java.util.ArrayList;
+
 public class Ventas {
     private String codigoVenta;
     private String fechaVenta;
+    private Vehiculos vehiculos;
+    private String formaPago;
+    private String precio;
 
     public String getCodigoVenta() {
         return codigoVenta;
@@ -34,6 +39,7 @@ public class Ventas {
         this.precio = precio;
     }
 
-    private String formaPago;
-    private String precio;
+    public void setVehiculos(Vehiculos vehiculos) {
+        this.vehiculos = vehiculos;
+    }
 }
