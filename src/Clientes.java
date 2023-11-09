@@ -1,8 +1,18 @@
+import java.util.ArrayList;
+
 public class Clientes {
     private String dni;
     private String nombre;
     private String apellidos;
+    private ArrayList <Ventas> ventas;
 
+    public ArrayList<Ventas> getVentas() {
+        return ventas;
+    }
+
+    public void setVentas(ArrayList<Ventas> ventas) {
+        this.ventas = ventas;
+    }
     public String getDni() {
         return dni;
     }
