@@ -39,8 +39,6 @@ public class main {
         Altas alta1 = new Altas();
         alta1.setCodigoAlta("001");
         alta1.setFechaAlta("Dia 12");
-        alta1.setVehiculos(vehiculo1);
-
     }
 
 }
